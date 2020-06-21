@@ -16,7 +16,7 @@ namespace Caliburn.Micro
     using DependencyObject = global::Xamarin.Forms.BindableObject;
 #elif WinRT81
     using Windows.UI.Xaml;
-    using Microsoft.Xaml.Interactivity;
+    using Microsoft.Xaml.Behaviors;
 #else
     using System.Windows;
     using System.Windows.Interactivity;

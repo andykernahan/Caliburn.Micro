@@ -1,0 +1,16 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<Copyright>Copyright (c) 2010 Blue Spire Consulting, Inc.</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Authors>Nigel Sampson, Rob Eisenberg, Thomas Ibel, Marco Amendola, Chin Bae, Ryan Cromwell, Matt Hidinger</Authors>
+		<Owners>Nigel Sampson, Rob Eisenberg, Thomas Ibel</Owners>
+		<Description>A small, yet powerful framework designed for Xaml platforms, Caliburn.Micro implements a variety of UI patterns for solving real-world problems. Patterns that are highlighted include MVVM (Presentation Model), MVP and MVC.</Description>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>3.2.0</Version>
+		<IsTestProject>$(MSBuildProjectName.Contains('Tests'))</IsTestProject>
+		<GenerateDocumentationFile Condition="'$(Configuration)' == 'Release' and '$(IsTestProject)' != 'true'">true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+</Project>

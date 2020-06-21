@@ -9,7 +9,7 @@
     using Windows.UI.Xaml.Controls.Primitives;
     using Windows.UI.Xaml.Data;
     using Windows.UI.Xaml.Markup;
-    using EventTrigger = Microsoft.Xaml.Interactions.Core.EventTriggerBehavior;
+    using EventTrigger = Microsoft.Xaml.Behaviors.Core.EventTriggerBehavior;
     using Windows.UI.Xaml.Shapes;
 #else
     using System.ComponentModel;

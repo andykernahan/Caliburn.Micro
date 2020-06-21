@@ -8,7 +8,7 @@ namespace Caliburn.Micro
     using System.Reflection;
 #if WinRT81
     using Windows.UI.Xaml;
-    using TriggerBase = Microsoft.Xaml.Interactivity.IBehavior;
+    using TriggerBase = Microsoft.Xaml.Behaviors.IBehavior;
 #elif XFORMS
     using global::Xamarin.Forms;
     using DependencyObject = global::Xamarin.Forms.BindableObject;

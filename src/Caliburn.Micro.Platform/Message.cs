@@ -9,8 +9,8 @@ namespace Caliburn.Micro
     using System.Linq;
 #if WinRT81
     using Windows.UI.Xaml;
-    using Microsoft.Xaml.Interactivity;
-    using TriggerBase = Microsoft.Xaml.Interactivity.IBehavior;
+    using Microsoft.Xaml.Behaviors;
+    using TriggerBase = Microsoft.Xaml.Behaviors.IBehavior;
 #elif XFORMS
     using global::Xamarin.Forms;
     using UIElement = global::Xamarin.Forms.Element;

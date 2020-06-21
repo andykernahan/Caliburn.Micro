@@ -10,9 +10,9 @@
     using Windows.UI.Xaml.Markup;
     using Windows.UI.Xaml.Media;
     using Windows.UI.Xaml.Controls;
-    using Microsoft.Xaml.Interactivity;
-    using TriggerBase = Microsoft.Xaml.Interactivity.IBehavior;
-    using EventTrigger = Microsoft.Xaml.Interactions.Core.EventTriggerBehavior;
+    using Microsoft.Xaml.Behaviors;
+    using TriggerBase = Microsoft.Xaml.Behaviors.IBehavior;
+    using EventTrigger = Microsoft.Xaml.Behaviors.Core.EventTriggerBehavior;
 #else
     using System.Windows;
     using System.Windows.Controls;

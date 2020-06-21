@@ -10,10 +10,10 @@ namespace Caliburn.Micro
 #if WinRT81
     using System.Reflection;
     using Windows.UI.Xaml;
-    using Microsoft.Xaml.Interactivity;
-    using TriggerBase = Microsoft.Xaml.Interactivity.IBehavior;
-    using EventTrigger = Microsoft.Xaml.Interactions.Core.EventTriggerBehavior;
-    using TriggerAction = Microsoft.Xaml.Interactivity.IAction;
+    using Microsoft.Xaml.Behaviors;
+    using TriggerBase = Microsoft.Xaml.Behaviors.IBehavior;
+    using EventTrigger = Microsoft.Xaml.Behaviors.Core.EventTriggerBehavior;
+    using TriggerAction = Microsoft.Xaml.Behaviors.IAction;
     using System.Text;
     using System.Text.RegularExpressions;
     using Windows.UI.Xaml.Data;
